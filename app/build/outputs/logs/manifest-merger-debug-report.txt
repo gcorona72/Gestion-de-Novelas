@@ -1,0 +1,353 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/ddb301d2857bb4d16333086dc5530b52/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/85dbc6fed866327fc58f70090af3e741/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/8cbcb52e41bd70ed75f8b7080281e08c/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/96eb53a3562c6d701d4f4d297d27d68f/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/dafd529c099e59b45ba5cf7b872c3a13/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/14f7f5d658fd5d81dcceff4d2d27bf20/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/20ff56fcbe6a0e0ca611a0d88dc14445/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/12040c3a22a05c961219bcb3f7262cdb/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/79abd7ee934d776ac30be37b138f2392/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/43f4e018c983682306f0a7a114b65d83/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/98f56029baa9b278ade2d2543a8e8477/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/056efd25db14558f825f98df320553a2/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/7739c1ebc112c133974b6c016b324ca7/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/11a966372360a209c754e7d140328a34/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/a8064b88659183d0ed43a465e4f11719/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/24399c248f1c07b3ead652bed78a8bb2/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/875df78b0f376ffa16bcc8ca68897566/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/928235522b61bf64f5db2e1a2ce6d123/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/05afe52d5e698622cabbbbf286b2408f/transformed/activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/aa37b32dfcd8043518d87bff523cc70d/transformed/activity-compose-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/gcoronaoyono/.gradle/caches/transforms-4/dbd85ddd4789f1c5f963d285e94ade88/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/gcoronaoyono/.gradle/caches/transforms-4/a5391897324c62a968081cb69263a53d/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.2] /Users/gcoronaoyono/.gradle/caches/transforms-4/adfb48bbc2d7f28c1379e59b47c37fce/transformed/runtime-livedata-1.7.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/195934214a27819e200ec0b6e4985717/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/f8ddae9d3dd7156f6f269dd585b60d6c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a263f2042c52042851125d58960879e0/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/6f8c8d2d1e0402ac7335b1750dbbc103/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/c1a225c2344d108c5236671b7f7a33f0/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/1b562ea8ca1e86940d8e918e50aec437/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/41bc52db1a8fd00a7235e13fa3f68c2e/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/be6707eb51eea56500f7cb8133613c82/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/3e25c2e79e878e1af3d4be25fa8d4390/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/e84b021a7b317ba355aff7122e5c9995/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/dc7a31c5f0d3c9279aee1e70b184b978/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/884a12f2eaced0e822956ef43a8c0225/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/ff3bde75e8cae15514c22723eb09723e/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/d5dbb23749be0b7c1879d20f70338413/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/affabb1e0e2c89e9b70aa20840cd0a84/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/f227111d5cd4d1c1f2f5977880bb2fc5/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/5c93a09a4845c3a330d555f446b23425/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/0da7a724701cdbba51b1aabc181b3d98/transformed/room-runtime-2.3.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/6865947ad8bff63a10b263b099506400/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/dc562c03ad7048bf6e7d0bfeb1755bb1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/fde4d9845f42ce5afaddbebcb9ce59ee/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/43717e2515dd720ee250c6af38f3aa58/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/cf8b1ef96495f498c02da166151afcf0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/6875574b37481d6809e7dc789cb05078/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/aa1b28a3525a60b87ea3566fe8d0b274/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/56340240c0d9a134751b5f3f2e129054/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:5:5-26:19
+INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:5:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/a8064b88659183d0ed43a465e4f11719/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/a8064b88659183d0ed43a465e4f11719/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/875df78b0f376ffa16bcc8ca68897566/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/875df78b0f376ffa16bcc8ca68897566/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/1b562ea8ca1e86940d8e918e50aec437/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/1b562ea8ca1e86940d8e918e50aec437/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/0da7a724701cdbba51b1aabc181b3d98/transformed/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/0da7a724701cdbba51b1aabc181b3d98/transformed/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/dc562c03ad7048bf6e7d0bfeb1755bb1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/dc562c03ad7048bf6e7d0bfeb1755bb1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/cf8b1ef96495f498c02da166151afcf0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/cf8b1ef96495f498c02da166151afcf0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:11:9-54
+	tools:targetApi
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:13:9-54
+	android:dataExtractionRules
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:7:9-65
+activity#com.example.gestiondenovelas.MainActivity
+ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:15:9-25:20
+	android:label
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:18:13-45
+	android:exported
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:19:13-58
+	android:name
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/ddb301d2857bb4d16333086dc5530b52/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/ddb301d2857bb4d16333086dc5530b52/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/85dbc6fed866327fc58f70090af3e741/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/85dbc6fed866327fc58f70090af3e741/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/8cbcb52e41bd70ed75f8b7080281e08c/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/8cbcb52e41bd70ed75f8b7080281e08c/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/96eb53a3562c6d701d4f4d297d27d68f/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/96eb53a3562c6d701d4f4d297d27d68f/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/dafd529c099e59b45ba5cf7b872c3a13/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/dafd529c099e59b45ba5cf7b872c3a13/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/14f7f5d658fd5d81dcceff4d2d27bf20/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/14f7f5d658fd5d81dcceff4d2d27bf20/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/20ff56fcbe6a0e0ca611a0d88dc14445/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/20ff56fcbe6a0e0ca611a0d88dc14445/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/12040c3a22a05c961219bcb3f7262cdb/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/12040c3a22a05c961219bcb3f7262cdb/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/79abd7ee934d776ac30be37b138f2392/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/79abd7ee934d776ac30be37b138f2392/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/43f4e018c983682306f0a7a114b65d83/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/43f4e018c983682306f0a7a114b65d83/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/98f56029baa9b278ade2d2543a8e8477/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/98f56029baa9b278ade2d2543a8e8477/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/056efd25db14558f825f98df320553a2/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/056efd25db14558f825f98df320553a2/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/7739c1ebc112c133974b6c016b324ca7/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/7739c1ebc112c133974b6c016b324ca7/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/11a966372360a209c754e7d140328a34/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/11a966372360a209c754e7d140328a34/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/a8064b88659183d0ed43a465e4f11719/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/a8064b88659183d0ed43a465e4f11719/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/24399c248f1c07b3ead652bed78a8bb2/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/24399c248f1c07b3ead652bed78a8bb2/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/875df78b0f376ffa16bcc8ca68897566/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/875df78b0f376ffa16bcc8ca68897566/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/928235522b61bf64f5db2e1a2ce6d123/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/928235522b61bf64f5db2e1a2ce6d123/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/05afe52d5e698622cabbbbf286b2408f/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/05afe52d5e698622cabbbbf286b2408f/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/aa37b32dfcd8043518d87bff523cc70d/transformed/activity-compose-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/aa37b32dfcd8043518d87bff523cc70d/transformed/activity-compose-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/gcoronaoyono/.gradle/caches/transforms-4/dbd85ddd4789f1c5f963d285e94ade88/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/gcoronaoyono/.gradle/caches/transforms-4/dbd85ddd4789f1c5f963d285e94ade88/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/gcoronaoyono/.gradle/caches/transforms-4/a5391897324c62a968081cb69263a53d/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/gcoronaoyono/.gradle/caches/transforms-4/a5391897324c62a968081cb69263a53d/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.2] /Users/gcoronaoyono/.gradle/caches/transforms-4/adfb48bbc2d7f28c1379e59b47c37fce/transformed/runtime-livedata-1.7.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.2] /Users/gcoronaoyono/.gradle/caches/transforms-4/adfb48bbc2d7f28c1379e59b47c37fce/transformed/runtime-livedata-1.7.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/195934214a27819e200ec0b6e4985717/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/195934214a27819e200ec0b6e4985717/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/f8ddae9d3dd7156f6f269dd585b60d6c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/f8ddae9d3dd7156f6f269dd585b60d6c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a263f2042c52042851125d58960879e0/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a263f2042c52042851125d58960879e0/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/6f8c8d2d1e0402ac7335b1750dbbc103/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/6f8c8d2d1e0402ac7335b1750dbbc103/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/c1a225c2344d108c5236671b7f7a33f0/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/c1a225c2344d108c5236671b7f7a33f0/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/1b562ea8ca1e86940d8e918e50aec437/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/1b562ea8ca1e86940d8e918e50aec437/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/41bc52db1a8fd00a7235e13fa3f68c2e/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/41bc52db1a8fd00a7235e13fa3f68c2e/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/be6707eb51eea56500f7cb8133613c82/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/be6707eb51eea56500f7cb8133613c82/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/3e25c2e79e878e1af3d4be25fa8d4390/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/3e25c2e79e878e1af3d4be25fa8d4390/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/e84b021a7b317ba355aff7122e5c9995/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/e84b021a7b317ba355aff7122e5c9995/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/dc7a31c5f0d3c9279aee1e70b184b978/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/dc7a31c5f0d3c9279aee1e70b184b978/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/884a12f2eaced0e822956ef43a8c0225/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/884a12f2eaced0e822956ef43a8c0225/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/ff3bde75e8cae15514c22723eb09723e/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/ff3bde75e8cae15514c22723eb09723e/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/d5dbb23749be0b7c1879d20f70338413/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/d5dbb23749be0b7c1879d20f70338413/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/affabb1e0e2c89e9b70aa20840cd0a84/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/affabb1e0e2c89e9b70aa20840cd0a84/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/f227111d5cd4d1c1f2f5977880bb2fc5/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/f227111d5cd4d1c1f2f5977880bb2fc5/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/5c93a09a4845c3a330d555f446b23425/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/5c93a09a4845c3a330d555f446b23425/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/0da7a724701cdbba51b1aabc181b3d98/transformed/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/0da7a724701cdbba51b1aabc181b3d98/transformed/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/6865947ad8bff63a10b263b099506400/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/6865947ad8bff63a10b263b099506400/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/dc562c03ad7048bf6e7d0bfeb1755bb1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/dc562c03ad7048bf6e7d0bfeb1755bb1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/fde4d9845f42ce5afaddbebcb9ce59ee/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/fde4d9845f42ce5afaddbebcb9ce59ee/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/43717e2515dd720ee250c6af38f3aa58/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/43717e2515dd720ee250c6af38f3aa58/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/cf8b1ef96495f498c02da166151afcf0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/cf8b1ef96495f498c02da166151afcf0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/6875574b37481d6809e7dc789cb05078/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/6875574b37481d6809e7dc789cb05078/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/aa1b28a3525a60b87ea3566fe8d0b274/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/aa1b28a3525a60b87ea3566fe8d0b274/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/56340240c0d9a134751b5f3f2e129054/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/56340240c0d9a134751b5f3f2e129054/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gcoronaoyono/Gestion-de-Novelas/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/a8064b88659183d0ed43a465e4f11719/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/a8064b88659183d0ed43a465e4f11719/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/a8064b88659183d0ed43a465e4f11719/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/875df78b0f376ffa16bcc8ca68897566/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/875df78b0f376ffa16bcc8ca68897566/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] /Users/gcoronaoyono/.gradle/caches/transforms-4/875df78b0f376ffa16bcc8ca68897566/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:24:13-63
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/1b562ea8ca1e86940d8e918e50aec437/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/1b562ea8ca1e86940d8e918e50aec437/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/cf8b1ef96495f498c02da166151afcf0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/cf8b1ef96495f498c02da166151afcf0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/2a284cd6633feef2d5358eabfcb80506/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.example.gestiondenovelas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.gestiondenovelas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/1b562ea8ca1e86940d8e918e50aec437/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/1b562ea8ca1e86940d8e918e50aec437/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/gcoronaoyono/.gradle/caches/transforms-4/1b562ea8ca1e86940d8e918e50aec437/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/0da7a724701cdbba51b1aabc181b3d98/transformed/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/0da7a724701cdbba51b1aabc181b3d98/transformed/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/0da7a724701cdbba51b1aabc181b3d98/transformed/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/gcoronaoyono/.gradle/caches/transforms-4/0da7a724701cdbba51b1aabc181b3d98/transformed/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/gcoronaoyono/.gradle/caches/transforms-4/4d4d22b1a4c721ec295c2cd48692fe5e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
