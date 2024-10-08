@@ -32,4 +32,14 @@ object UserManager {
     fun getUser(username: String, password: String): User? {
         return users.find { it.username == username && it.password == password }
     }
+
+    fun createUser(username: String, password: String) {
+        val newUser = User(username, password)
+        users.add(newUser)
+    }
+}
+
+// Crear el usuario "pepe" con la contraseña "123"
+fun main() {
+    UserManager.createUser("pepe", "123")
 }
