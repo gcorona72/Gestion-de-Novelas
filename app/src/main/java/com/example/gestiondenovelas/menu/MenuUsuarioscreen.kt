@@ -5,7 +5,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -47,7 +47,7 @@ fun MenuUsuarioScreen(
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Text(text = "Welcome to MenuUsuario, $userName", fontSize = 24.sp, modifier = Modifier.padding(bottom = 16.dp))
+                Text(text = "Bienvenido a tu Biblioteca, $userName", fontSize = 24.sp, modifier = Modifier.padding(bottom = 16.dp))
                 Button(
                     onClick = onAddNovela,
                     modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp)

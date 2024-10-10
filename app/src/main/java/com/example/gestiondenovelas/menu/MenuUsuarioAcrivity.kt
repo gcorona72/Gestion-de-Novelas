@@ -1,12 +1,11 @@
-// src/main/java/com/example/gestiondenovelas/menu/MenuUsuarioActivity.kt
 package com.example.gestiondenovelas.menu
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.*
 import com.example.gestiondenovelas.AddNovela.AddNovelaScreen
-
 import com.example.gestiondenovelas.Database.UserManager
 import com.example.gestiondenovelas.Novela
 import com.example.gestiondenovelas.VerNovelas.ViewNovelasScreen
@@ -31,7 +30,7 @@ fun MenuUsuarioContent(userName: String) {
         showAddNovelaScreen -> {
             AddNovelaScreen(
                 onBack = { showAddNovelaScreen = false },
-                onAddNovela = { novela: Novela ->
+                onAddNovela = { novela ->
                     UserManager.addNovelaToUser(userName, novela)
                     showAddNovelaScreen = false
                 }
@@ -41,7 +40,7 @@ fun MenuUsuarioContent(userName: String) {
             ViewNovelasScreen(
                 novelas = UserManager.getNovelasForUser(userName) ?: emptyList(),
                 onBack = { showUserNovelasScreen = false },
-                onDeleteNovela = { novela: Novela ->
+                onDeleteNovela = { novela ->
                     UserManager.deleteNovelaFromUser(userName, novela)
                 }
             )
@@ -50,7 +49,7 @@ fun MenuUsuarioContent(userName: String) {
             ViewNovelasScreen(
                 novelas = UserManager.getInitialNovels(),
                 onBack = { showInitialNovelasScreen = false },
-                onDeleteNovela = { novela: Novela ->
+                onDeleteNovela = { novela ->
                     UserManager.deleteNovelaFromInitial(novela)
                 }
             )
@@ -68,5 +67,3 @@ fun MenuUsuarioContent(userName: String) {
         }
     }
 }
-
-

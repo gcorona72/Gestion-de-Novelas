@@ -5,41 +5,39 @@ import com.example.gestiondenovelas.Novela
 
 object UserManager {
     private val users = mutableListOf<User>()
-    private val userNovelas = mutableMapOf<String, MutableList<Novela>>()
+    private val mutableInitialNovels = mutableListOf<Novela>()
 
-    fun addNovelaToUser(userName: String, novela: Novela) {
-        val novelas = userNovelas.getOrPut(userName) { mutableListOf() }
-        novelas.add(novela)
+    init {
+        users.add(User("1", "1"))
     }
 
-    fun deleteNovelaFromUser(userName: String, novela: Novela) {
-        userNovelas[userName]?.remove(novela)
-    }
-
-    fun getNovelasForUser(userName: String): List<Novela>? {
-        return userNovelas[userName]
-    }
-
-    fun getInitialNovels(): List<Novela> {
-        // Devuelve una lista de novelas iniciales
-        return listOf()
-    }
-
-    fun deleteNovelaFromInitial(novela: Novela) {
-        // Implementa la lógica para eliminar una novela de la lista inicial
+    fun addUser(user: User) {
+        users.add(user)
     }
 
     fun getUser(username: String, password: String): User? {
         return users.find { it.username == username && it.password == password }
     }
 
-    fun createUser(username: String, password: String) {
-        val newUser = User(username, password)
-        users.add(newUser)
+    fun addNovelaToUser(username: String, novela: Novela) {
+        val user = users.find { it.username == username }
+        user?.novelas?.add(novela)
     }
-}
 
-// Crear el usuario "pepe" con la contraseña "123"
-fun main() {
-    UserManager.createUser("pepe", "123")
+    fun getNovelasForUser(username: String): List<Novela>? {
+        return users.find { it.username == username }?.novelas
+    }
+
+    fun deleteNovelaFromUser(username: String, novela: Novela) {
+        val user = users.find { it.username == username }
+        user?.novelas?.remove(novela)
+    }
+
+    fun getInitialNovels(): List<Novela> {
+        return mutableInitialNovels
+    }
+
+    fun deleteNovelaFromInitial(novela: Novela) {
+        mutableInitialNovels.remove(novela)
+    }
 }
