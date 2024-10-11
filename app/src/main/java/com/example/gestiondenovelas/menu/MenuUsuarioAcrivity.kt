@@ -1,16 +1,16 @@
+// MenuUsuario.kt
 package com.example.gestiondenovelas.menu
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.*
-import com.example.gestiondenovelas.AddNovela.AddNovelaScreen
+import com.example.gestiondenovelas.AñadirNovela.AñadirNovelaScreen
 import com.example.gestiondenovelas.Database.UserManager
 import com.example.gestiondenovelas.Novela
-import com.example.gestiondenovelas.VerNovelas.ViewNovelasScreen
+import com.example.gestiondenovelas.PantallasNovelas.ImprimirNovelas
 
-class MenuUsuarioActivity : ComponentActivity() {
+class MenuUsuario : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val userName = intent.getStringExtra("username") ?: "User"
@@ -22,22 +22,22 @@ class MenuUsuarioActivity : ComponentActivity() {
 
 @Composable
 fun MenuUsuarioContent(userName: String) {
-    var showAddNovelaScreen by remember { mutableStateOf(false) }
+    var showAñadirNovelaScreen by remember { mutableStateOf(false) }
     var showUserNovelasScreen by remember { mutableStateOf(false) }
     var showInitialNovelasScreen by remember { mutableStateOf(false) }
 
     when {
-        showAddNovelaScreen -> {
-            AddNovelaScreen(
-                onBack = { showAddNovelaScreen = false },
-                onAddNovela = { novela ->
-                    UserManager.addNovelaToUser(userName, novela)
-                    showAddNovelaScreen = false
+        showAñadirNovelaScreen -> {
+            AñadirNovelaScreen(
+                onBack = { showAñadirNovelaScreen = false },
+                onAñadirNovela = { novela ->
+                    UserManager.AñadirNovelaToUser(userName, novela)
+                    showAñadirNovelaScreen = false
                 }
             )
         }
         showUserNovelasScreen -> {
-            ViewNovelasScreen(
+            ImprimirNovelas(
                 novelas = UserManager.getNovelasForUser(userName) ?: emptyList(),
                 onBack = { showUserNovelasScreen = false },
                 onDeleteNovela = { novela ->
@@ -46,7 +46,7 @@ fun MenuUsuarioContent(userName: String) {
             )
         }
         showInitialNovelasScreen -> {
-            ViewNovelasScreen(
+            ImprimirNovelas(
                 novelas = UserManager.getInitialNovels(),
                 onBack = { showInitialNovelasScreen = false },
                 onDeleteNovela = { novela ->
@@ -55,12 +55,12 @@ fun MenuUsuarioContent(userName: String) {
             )
         }
         else -> {
-            MenuUsuarioScreen(
+            PantallaUsuario(
                 userName = userName,
                 onBack = {
                     // Handle back action
                 },
-                onAddNovela = { showAddNovelaScreen = true },
+                onAñadirNovela = { showAñadirNovelaScreen = true },
                 onViewUserNovelas = { showUserNovelasScreen = true },
                 onViewInitialNovelas = { showInitialNovelasScreen = true }
             )

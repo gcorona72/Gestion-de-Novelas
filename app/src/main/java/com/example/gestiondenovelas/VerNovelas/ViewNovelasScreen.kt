@@ -1,5 +1,5 @@
-// src/main/java/com/example/gestiondenovelas/VerNovelas/ViewNovelasScreen.kt
-package com.example.gestiondenovelas.VerNovelas
+// src/main/java/com/example/gestiondenovelas/PantallasNovelas/ImprimirNovelas.kt
+package com.example.gestiondenovelas.PantallasNovelas
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -15,7 +15,7 @@ import com.example.gestiondenovelas.Novela
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ViewNovelasScreen(
+fun ImprimirNovelas(
     novelas: List<Novela>,
     onBack: () -> Unit,
     onDeleteNovela: (Novela) -> Unit,

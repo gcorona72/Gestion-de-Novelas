@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562882592031",
+    "project_id": "novelas-ef495",
+    "storage_bucket": "novelas-ef495.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562882592031:android:1aaf757e735d787568842a",
+        "android_client_info": {
+          "package_name": "com.example.gestiondenovelas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAH3zBnKtOn3Y93RHJa3gTv-uueNhxKYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

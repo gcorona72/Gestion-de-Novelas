@@ -10,7 +10,7 @@ import androidx.compose.material.icons.filled.ArrowBack
 import com.example.gestiondenovelas.Novela
 
 @Composable
-fun ViewNovelaDetailScreen(novela: Novela, onBack: () -> Unit) {
+fun DetallesNovela(novela: Novela, onBack: () -> Unit) {
     Scaffold { innerPadding ->
         Box(
             modifier = Modifier

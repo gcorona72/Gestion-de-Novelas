@@ -1,3 +1,4 @@
+// PantallaUsuario.kt
 package com.example.gestiondenovelas.menu
 
 import android.content.Intent
@@ -15,10 +16,10 @@ import androidx.compose.ui.unit.sp
 import com.example.gestiondenovelas.IniciodeSesion.LoginActivity
 
 @Composable
-fun MenuUsuarioScreen(
+fun PantallaUsuario(
     userName: String,
     onBack: () -> Unit,
-    onAddNovela: () -> Unit,
+    onAñadirNovela: () -> Unit,
     onViewUserNovelas: () -> Unit,
     onViewInitialNovelas: () -> Unit,
     modifier: Modifier = Modifier
@@ -49,7 +50,7 @@ fun MenuUsuarioScreen(
             ) {
                 Text(text = "Bienvenido a tu Biblioteca, $userName", fontSize = 24.sp, modifier = Modifier.padding(bottom = 16.dp))
                 Button(
-                    onClick = onAddNovela,
+                    onClick = onAñadirNovela,
                     modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp)
                 ) {
                     Text("Añadir Novela")
@@ -73,6 +74,6 @@ fun MenuUsuarioScreen(
 
 @Preview(showBackground = true)
 @Composable
-fun MenuUsuarioScreenPreview() {
-    MenuUsuarioScreen(userName = "User", onBack = {}, onAddNovela = {}, onViewUserNovelas = {}, onViewInitialNovelas = {})
+fun PantallaUsuarioPreview() {
+    PantallaUsuario(userName = "User", onBack = {}, onAñadirNovela = {}, onViewUserNovelas = {}, onViewInitialNovelas = {})
 }

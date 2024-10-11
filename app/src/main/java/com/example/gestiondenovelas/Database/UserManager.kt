@@ -8,7 +8,7 @@ object UserManager {
     private val mutableInitialNovels = mutableListOf<Novela>()
 
     init {
-        users.add(User("1", "1"))
+        users.add(User("pepe", "123"))
     }
 
     fun addUser(user: User) {
@@ -19,7 +19,7 @@ object UserManager {
         return users.find { it.username == username && it.password == password }
     }
 
-    fun addNovelaToUser(username: String, novela: Novela) {
+    fun AñadirNovelaToUser(username: String, novela: Novela) {
         val user = users.find { it.username == username }
         user?.novelas?.add(novela)
     }

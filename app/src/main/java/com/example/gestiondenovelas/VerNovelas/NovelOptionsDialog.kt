@@ -7,7 +7,7 @@ import androidx.compose.runtime.*
 import com.example.gestiondenovelas.Novela
 
 @Composable
-fun NovelOptionsDialog(novela: Novela, onDismiss: () -> Unit, onDelete: () -> Unit, onView: () -> Unit, onToggleFavorite: () -> Unit, onAddReseña: (String) -> Unit) {
+fun NovelasDialg(novela: Novela, onDismiss: () -> Unit, onDelete: () -> Unit, onView: () -> Unit, onToggleFavorite: () -> Unit, onAddReseña: (String) -> Unit) {
     var showAddReseñaDialog by remember { mutableStateOf(false) }
     var nuevaReseña by remember { mutableStateOf("") }
 

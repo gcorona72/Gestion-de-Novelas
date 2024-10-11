@@ -19,7 +19,7 @@ import com.example.gestiondenovelas.Novela
 import com.example.gestiondenovelas.R
 
 @Composable
-fun NovelList(novelas: List<Novela>, onSelectNovela: (Novela) -> Unit, modifier: Modifier = Modifier) {
+fun ListaNovelas(novelas: List<Novela>, onSelectNovela: (Novela) -> Unit, modifier: Modifier = Modifier) {
     val listState = rememberLazyListState()
     LazyColumn(state = listState, modifier = modifier.fillMaxSize()) {
         items(novelas) { novela ->
