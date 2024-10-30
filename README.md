@@ -29,6 +29,7 @@ Esta aplicación sigue el patrón **MVVM (Model-View-ViewModel)** para asegurar 
 - **Jetpack Compose**: Para la construcción de la interfaz de usuario.
 - **Room Database**: Para la gestión de la base de datos local.
 - **LiveData**: Para la observación y actualización de los datos en tiempo real.
+- **Firebase**: Para la analítica y otros servicios de backend.
 
 ## Instalación
 
@@ -41,7 +42,9 @@ Esta aplicación sigue el patrón **MVVM (Model-View-ViewModel)** para asegurar 
    
 3. Asegúrate de tener las dependencias necesarias en el archivo `build.gradle.kts` y sincroniza el proyecto.
 
-4. Ejecuta la aplicación en un emulador o dispositivo físico.
+4. Añade el archivo `google-services.json` en el directorio `app/`.
+
+5. Ejecuta la aplicación en un emulador o dispositivo físico.
 
 ## Licencia
 
@@ -56,4 +59,3 @@ Las contribuciones son bienvenidas. Si deseas contribuir:
 3. Realiza los cambios necesarios y haz un commit: `git commit -m 'Añadir nueva funcionalidad'`.
 4. Sube los cambios: `git push origin feature/nueva-funcionalidad`.
 5. Abre un **Pull Request**.
-
