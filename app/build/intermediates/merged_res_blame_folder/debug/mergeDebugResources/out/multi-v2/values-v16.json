@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gestiondenovelas.app-mergeDebugResources-48:/values-v16/values-v16.xml",
+            "outputFile": "com.example.gestiondenovelas.app-mergeDebugResources-55:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/gcoronaoyono/.gradle/caches/transforms-4/a489bb6c6fb14dcd48dbe6a00715413b/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/gcoronaoyono/.gradle/caches/transforms-4/04c06879f6130a70bc3e6faa13f47b0a/transformed/core-1.12.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -8,5 +8,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Gestion de Novelas</string>
+    <string name="gcm_defaultSenderId" translatable="false">562882592031</string>
+    <string name="google_api_key" translatable="false">AIzaSyBAH3zBnKtOn3Y93RHJa3gTv-uueNhxKYc</string>
+    <string name="google_app_id" translatable="false">1:562882592031:android:1aaf757e735d787568842a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBAH3zBnKtOn3Y93RHJa3gTv-uueNhxKYc</string>
+    <string name="google_storage_bucket" translatable="false">novelas-ef495.appspot.com</string>
+    <string name="project_id" translatable="false">novelas-ef495</string>
     <style name="Theme.GestionDeNovelas" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>

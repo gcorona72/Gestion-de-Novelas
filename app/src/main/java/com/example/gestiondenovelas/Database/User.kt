@@ -7,5 +7,5 @@ import androidx.room.PrimaryKey
 data class User(
     @PrimaryKey val username: String,
     val password: String,
-    val novelas: MutableList<Novela> = mutableListOf() // Add a list of novels
+    val novelas: MutableList<Novela> = mutableListOf()
 )

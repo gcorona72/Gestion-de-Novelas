@@ -1,17 +1,16 @@
-// PantallaUsuario.kt
 package com.example.gestiondenovelas.menu
 
 import android.content.Intent
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.ui.unit.sp
 import com.example.gestiondenovelas.IniciodeSesion.LoginActivity
 
@@ -22,6 +21,7 @@ fun PantallaUsuario(
     onAñadirNovela: () -> Unit,
     onViewUserNovelas: () -> Unit,
     onViewInitialNovelas: () -> Unit,
+    onToggleTheme: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
@@ -67,6 +67,12 @@ fun PantallaUsuario(
                 ) {
                     Text("Ver Otras Novelas")
                 }
+                Button(
+                    onClick = onToggleTheme,
+                    modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp)
+                ) {
+                    Text("Cambiar Tema")
+                }
             }
         }
     }
@@ -75,5 +81,5 @@ fun PantallaUsuario(
 @Preview(showBackground = true)
 @Composable
 fun PantallaUsuarioPreview() {
-    PantallaUsuario(userName = "User", onBack = {}, onAñadirNovela = {}, onViewUserNovelas = {}, onViewInitialNovelas = {})
+    PantallaUsuario(userName = "User", onBack = {}, onAñadirNovela = {}, onViewUserNovelas = {}, onViewInitialNovelas = {}, onToggleTheme = {})
 }
